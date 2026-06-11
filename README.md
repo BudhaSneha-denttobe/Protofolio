@@ -109,14 +109,7 @@ https://www.linkedin.com/in/sneha-budha
 
 [snehabudha470@gmail.com](mailto:snehabudha470@gmail.com)
 
-## Future Enhancements
 
-* Blog Section
-* Dark/Light Theme Toggle
-* Project Filtering
-* Resume Download Feature
-* Advanced Contact Form Integration
-* AI-powered Portfolio Assistant
 
 ## Author
 
