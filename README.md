@@ -1,23 +1,130 @@
-<<<<<<< HEAD
-# Protofolio
-Its my protofolio Website 
-Well Its is UnderConstruction ,It takes some Time to be live of my Website 
-Sorry Guys :|
-=======
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio website! This portfolio showcases my skills, projects, achievements, education, and technical expertise. It serves as a platform to highlight my journey as a Computer Science student and aspiring Software Engineer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Responsive and modern user interface
+* About Me section
+* Technical Skills showcase
+* Project portfolio
+* Education details
+* Contact section
+* Social media integration
+* Smooth animations and interactive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 3703153 (Initial commit: Update project images, contact form, hero AI animation)
+* React.js
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+
+### Libraries
+
+* Framer Motion
+* React Icons
+* Lucide React
+* Tailwind CSS
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/BudhaSneha-denttobe
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio-website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+portfolio-website/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## About Me
+
+I am Sneha Budha, a B.Tech Computer Science student passionate about Software Development, Artificial Intelligence, Machine Learning, and Web Development. I enjoy building projects that solve real-world problems and continuously learning new technologies.
+
+## Contact
+
+### GitHub
+
+https://github.com/BudhaSneha-denttobe
+
+### LinkedIn
+
+https://www.linkedin.com/in/sneha-budha
+
+### Email
+
+[snehabudha470@gmail.com](mailto:snehabudha470@gmail.com)
+
+## Future Enhancements
+
+* Blog Section
+* Dark/Light Theme Toggle
+* Project Filtering
+* Resume Download Feature
+* Advanced Contact Form Integration
+* AI-powered Portfolio Assistant
+
+## Author
+
+**Sneha Budha**
+
+B.Tech Computer Science Student
+Aspiring Software Engineer | AI/ML Enthusiast | Web Developer
+
+## License
+
+This project is open-source and available under the MIT License.
