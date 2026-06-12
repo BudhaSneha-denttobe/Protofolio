@@ -56,11 +56,13 @@ const certifications = [
     title: 'From Builder to AI Architecture',
     issuer: 'IBM SkillBuild',
     imageKey: 'IBM-From Builder to AI Architect.jpeg',
+    fileName: 'IBM-From Builder to AI Architect.jpeg',
   },
   {
     title: 'Data Structures and Algorithms(Gold)',
     issuer: 'Smart Interviews',
-    imageKey: 'Smart Interviews-Data Structures and Algorithms.png'
+    imageKey: 'Smart Interviews-Data Structures and Algorithms.png',
+    fileName: 'Smart Interviews-Data Structures and Algorithms.png',
   },
   {
     title: 'Generative AI Foundations',

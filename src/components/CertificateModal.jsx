@@ -1,22 +1,16 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { HiX } from 'react-icons/hi'
 
-const loadedCertFiles = import.meta.glob('../assets/sneha_certificats/*', { eager: true, as: 'url' })
-const certFiles = Object.fromEntries(
-  Object.entries(loadedCertFiles).map(([path, url]) => [path.split('/').pop(), url])
-)
+const getCertificateUrl = (fileName) => `/certificates/${encodeURIComponent(fileName)}`
 
 export default function CertificateModal({ cert, onClose }) {
   if (!cert) return null
 
-  const fileUrl = (() => {
-    if (cert.fileName && certFiles[cert.fileName]) return certFiles[cert.fileName]
-    if (cert.imageKey) {
-      const found = Object.entries(certFiles).find(([name, url]) => name.toLowerCase().includes(cert.imageKey.toLowerCase()))
-      if (found) return found[1]
-    }
-    return null
-  })()
+  const fileUrl = cert.fileName
+    ? getCertificateUrl(cert.fileName)
+    : cert.imageKey
+      ? getCertificateUrl(cert.imageKey)
+      : null
 
   const isPdf = Boolean(fileUrl && fileUrl.toLowerCase().endsWith('.pdf'))
   const isImage = Boolean(fileUrl && /\.(jpe?g|png|gif|webp|svg)$/i.test(fileUrl))
