@@ -144,7 +144,7 @@ export default function Hero() {
               className="flex flex-wrap gap-4 mb-10 justify-center lg:justify-start"
             >
               <a
-                href="https://github.com/budhasneha"
+                href="https://github.com/BudhaSneha-denttobe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 rounded-full border border-gray-200 dark:border-white/10 text-gray-700 dark:text-gray-200 hover:border-primary/30 hover:text-primary transition-all duration-300"
@@ -152,15 +152,7 @@ export default function Hero() {
                 <FiGithub size={18} className="mr-2" />
                 GitHub
               </a>
-              <a
-                href="https://budhasneha-website.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-gradient-to-r from-primary to-accent text-white hover:shadow-xl hover:shadow-primary/25 transition-all duration-300"
-              >
-                <HiArrowRight className="mr-2" />
-                Live Demo
-              </a>
+              
             </motion.div>
 
             <motion.div
@@ -173,7 +165,7 @@ export default function Hero() {
               <div className="h-px w-8 bg-gray-200 dark:bg-white/10" />
               <div className="flex gap-3">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/BudhaSneha-denttobe"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-500 dark:text-gray-400 hover:text-primary hover:border-primary/30 transition-all duration-300"
@@ -181,7 +173,7 @@ export default function Hero() {
                   <FiGithub size={18} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/sneha-budha"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-500 dark:text-gray-400 hover:text-primary hover:border-primary/30 transition-all duration-300"
@@ -189,7 +181,7 @@ export default function Hero() {
                   <FiLinkedin size={18} />
                 </a>
                 <a
-                  href="mailto:budha.sneha@example.com"
+                  href="mailto:snehabudha470@gmail.com"
                   className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-500 dark:text-gray-400 hover:text-primary hover:border-primary/30 transition-all duration-300"
                 >
                   <HiMail size={18} />
